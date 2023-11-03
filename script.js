@@ -11,6 +11,8 @@ $(function() {
     return false;
   });
 
+$("#table1").trigger("sorton", [ [[0,1]] ]);
+  
   $('button.apply').click(function() {
     // This method reapplies the widgets listed in table.config.widgets
     // it won't appear to do anything unless we add 'zebra' to the widgets option
